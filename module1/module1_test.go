@@ -31,7 +31,7 @@ func TestModule1CheckEnvGOOSInJson(t *testing.T) {
 	if !ok {
 		t.Errorf("your 'module1.json' does not include valid values that we check")
 	}
-	// fmt.Println(data["GOOS"].(string))
+	//fmt.Println(data["GOOS"].(string))
 
 }
 
